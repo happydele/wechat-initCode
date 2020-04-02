@@ -1,11 +1,11 @@
 module.exports = {
   Dev: {
-    BASEAPI: 'http://dev.secmind.cn'
+    BASEAPI: 'https://dev.secmind.cn'
   },
   Test: {
-    BASEAPI: 'http://test.secmind.cn'
+    BASEAPI: 'https://test.secmind.cn'
   },
   Prod: {
-    BASEAPI: 'http://pre.secmind.cn'
+    BASEAPI: 'https://secmind.cn'
   }
 }

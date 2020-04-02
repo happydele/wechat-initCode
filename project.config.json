@@ -15,7 +15,7 @@
 		"showShadowRootInWxmlPanel": true,
 		"scopeDataCheck": false,
 		"checkInvalidKey": true,
-		"checkSiteMap": true,
+		"checkSiteMap": false,
 		"uploadWithSourceMap": true,
 		"babelSetting": {
 			"ignore": [],
@@ -25,8 +25,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.10.4",
-	"appid": "wx38afdf62d22f8d9d",
-	"projectname": "secmind-wechat",
+	"appid": "wxb787d06d100e7ff3",
+	"projectname": "wechatInitCode",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
