@@ -12,16 +12,18 @@
     "backgroundColor": "#eeeeee"
   },
   "tabBar": {
+    "color": "#666",
+    "selectedColor": "#333",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath": "images/tab/music1.png",
-        "selectedIconPath": "images/tab/music.png",
+        "iconPath": "assets/img/tab/music1.png",
+        "selectedIconPath": "assets/img/tab/music.png",
         "text": "首页"
       }, {
         "pagePath": "pages/logs/logs",
-        "iconPath": "images/tab/video1.png",
-        "selectedIconPath": "images/tab/video.png",
+        "iconPath": "assets/img/tab/video1.png",
+        "selectedIconPath": "assets/img/tab/video.png",
         "text": "日志"
       }
     ]

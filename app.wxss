@@ -1,4 +1,9 @@
 /**app.wxss**/
+
+/* 引入weUI样式文件 */
+@import '/assets/lib/weui.wxss';
+@import '/assets/lib/weui-icon.wxss';
+
 .container {
   height: 100%;
   display: flex;
@@ -8,3 +13,39 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+view,scroll-view,swiper,swiper-item,movable-area,movable-view,cover-view,cover-image,icon,text,rich-text,progress,button,checkbox-group,checkbox,form,input,label,picker,picker-view,radio-group,radio,slider,switch,textarea,navigator,functional-page-navigator,image,video,camera,live-player,live-pusher,map,canvas,open-data,web-view,ad{
+  box-sizing: border-box;
+}
+
+/* 顶部提示 */
+.weui-toptips{
+  display:block;
+  top: 16rpx;
+  left: 16rpx;
+  right: 16rpx;
+  border-radius: 16rpx;
+  transition: all 2s;
+  color: #fff;
+  background-color: #fa5151;
+  background-color: var(--weui-RED);
+}
+/* 没有更多 */
+.weui-loadmore{
+  position: relative;
+}
+.weui-loadmore__tips{
+  font-size:24rpx;
+  font-family:PingFangSC-Regular,PingFang SC;
+  font-weight:400;
+  color:rgba(153,153,153,1);
+}
+.no-more{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 0 20rpx;
+  z-index: 1;
+}

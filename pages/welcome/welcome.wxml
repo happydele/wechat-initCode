@@ -1,17 +1,7 @@
 <!--欢迎页-pages/welcome/welcome.wxml-->
-<view wx:if="{{ canIUse }}">
-	<view class='header'>
-		<image src='/images/logo/logo.png'></image>
-	</view>
-
-	<view class='content'>
-		<view>申请获取以下权限</view>
-		<text>获得你的公开信息(昵称，头像等)</text>
-	</view>
-
-	<button class='bottom' type='primary' open-type="getUserInfo" bindgetuserinfo="getUserInfo" lang="zh_CN">
-		授权登录
-	</button>
+<view wx:if="{{ canIUse }}" class="welcome-layout">
+	<image class="bg-image" src="/assets/img/images/welcome-bg.png" mode="widthFix"></image>
+	<view class="text">及时行樂</view>
 </view>
 
-<view wx:else>请升级微信版本</view>
+<view class="upgrade" wx:else>你的微信版本过低，无法正常使用此小程序的服务，请更新微信到最新版本。</view>
